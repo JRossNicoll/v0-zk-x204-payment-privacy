@@ -1,0 +1,44 @@
+{
+  "name": "zk-x402-demo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "relayer": "tsx scripts/relayer.ts",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "latest",
+    "@radix-ui/react-dialog": "^1.1.4",
+    "@radix-ui/react-label": "^2.1.2",
+    "@radix-ui/react-select": "^2.1.4",
+    "@radix-ui/react-slot": "^1.1.1",
+    "@vercel/analytics": "^1.4.1",
+    "@vercel/blob": "latest",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "latest",
+    "lucide-react": "^0.454.0",
+    "next": "16.0.0",
+    "path": "0.12.7",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "tailwind-merge": "^2.5.5",
+    "tailwindcss-animate": "^1.0.7",
+    "tw-animate-css": "latest",
+    "viem": "latest"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.9",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/node": "^22",
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.2",
+    "postcss": "^8.5",
+    "tailwindcss": "^4.1.9",
+    "tsx": "^4.19.2",
+    "typescript": "^5"
+  }
+}
