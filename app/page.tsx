@@ -119,7 +119,7 @@ export default function ZKX402Demo() {
               }}
               className="block w-full text-left px-6 py-4 rounded-xl text-base font-medium text-gray-400 hover:text-white hover:bg-white/5 transition-all duration-300"
             >
-              Demo
+              SELL
             </button>
             <button
               onClick={() => {
@@ -186,7 +186,7 @@ export default function ZKX402Demo() {
             className="writing-mode-vertical text-sm font-medium tracking-widest uppercase text-gray-500 hover:text-white transition-all duration-300 pl-6"
             style={{ writingMode: "vertical-rl", textOrientation: "mixed" }}
           >
-            Demo
+            SELL
           </button>
           <button
             onClick={() => {
@@ -285,7 +285,7 @@ export default function ZKX402Demo() {
                     d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                   />
                 </svg>
-                Watch Demo
+                Sell Content
               </button>
               <button
                 onClick={() => window.open("https://x.com/zK_X402", "_blank")}
@@ -858,7 +858,7 @@ export default function ZKX402Demo() {
         </UiuiScrollReveal>
 
         <UiuiScrollReveal delay={350}>
-          <section id="demo" className="min-h-screen py-20 sm:py-32 px-4 sm:px-6 scroll-snap-section relative">
+          <section id="Sell" className="min-h-screen py-20 sm:py-32 px-4 sm:px-6 scroll-snap-section relative">
             <div className="absolute inset-0 opacity-5">
               <div
                 className="absolute inset-0"
